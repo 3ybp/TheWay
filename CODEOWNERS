@@ -1,4 +1,2 @@
 *.yml @online-marathon
 *.yaml @online-marathon
-
-*.yml @kovnick
