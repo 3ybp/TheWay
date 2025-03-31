@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage('Prepare') {
 			steps {
-				sh 'curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -'
+				sh 'curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -S bash -'
 				sh 'sudo apt-get install -y nodejs'
 				}
 			}
@@ -19,4 +19,3 @@ pipeline {
 		}
 	}
 }
-
